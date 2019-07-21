@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FLAME</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/sponsors.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://cdn.glitch.com/f8d173a9-ef09-43f5-bbb1-f179a5ed06ae%2Ffavicon.ico?v=1563665019549">
+  </head>
+  <body>
+    
+    <!--     nav bar -->
+    <div class = "navbar">
+      <ul>
+        <b><li><a href="index.html">🔥 F L A M E </a></li></b>
+        <li><a class="active" href="index.html">HOME</a></li>
+        <li><a href="connect.html" > CONNECT </a></li>
+        <li><a href="events.html"> EVENTS </a></li>
+        <li><a href="sponsors.html"> GET SPONSORS </a></li>
+      </ul>
+    </div>
+    
+    
+    <!--     header image  -->
+   <div class = "header">
+     <img class = "headerimg" src = "https://cdn.glitch.com/f8d173a9-ef09-43f5-bbb1-f179a5ed06ae%2Fnetflix.jpeg?v=1563661297256" alt = "header image">
+     <div class = "headertext">
+       <h1 class = "headertextactual">FIND YOUR MATCH </h1>
+       <br/>
+     </div>
+  </div>
+
+  <br/>
+  <br/>
+  <br/>
+    <center><h2> QUESTIONAIRE </h2></center>
+    <br/>
+    <center><p> Fill out this mini quiz and FLAME will reccomended two sponsors to help fund your event. </p></center>
+  <br/>
+  <br/>
+  <br/>
+<!-- <center><button id="low" class ="buttonyo" type="button" onclick="hideShow1()"><h3>LOW COST</h3></button> -->
+<!-- <center><button id="high" class ="buttonyo" type="button" onclick="hideShow2()"><h3>HIGH COST</h3></button> -->
+<div class="quiz">
+  <br/>
+  <h2>What is your event about?</h2>
+  <div class="btn-group">
+    <left>
+        <input type="radio" id ="education">Education<br>
+        <input type="radio" id="tech">Technology<br>
+        <input type="radio" id="pa">Political Activism<br>
+        <input type="radio" id="environment">Environment<br>
+    </left>
+  </div>
+  
+  <br/>
+  <h2>
+    What is your budget?
+  </h2>
+  <div class="btn-group">
+    <left>
+        <input type="radio" id = "low">$1 - $500<br>
+       <input type="radio" id = "med">$500 - $1,000<br>
+       <input type="radio" id = "high">$1,000 - $5,000<br>
+       <input type="radio" id = "v high">$5,000+<br>
+    </left>
+  </div>
+  
+<!--   <br/>
+  <h2>
+    Which Area?  
+  </h2>
+  <div class="btn-group">
+    <left>
+      <input type="radio" name="location">NorCal<br>
+       <input type="radio" name="location">Bay Area<br>
+       <input type="radio" name="location">Central<br>
+       <input type="radio" name="location">SoCal<br>
+    </left>
+  </div> -->
+</div>
+<br><br><br>
+<div class="submit">
+  <center><button id="submit" class ="button" type="button" onclick="submit()"><h3>Find a sponsor</h3></button>
+    <br/>
+    </center>
+</div>
+    
+<center><div class = "result">
+  <br/>
+  <center><img id = "p4" src = "https://cdn.glitch.com/f8d173a9-ef09-43f5-bbb1-f179a5ed06ae%2Fdelete.png?v=1563663544029" alt="" width="600" height="200"></center>
+  <br/>
+  <p id = "p3"></p>
+  <br/>
+</div></center>
+
+
+ <script src = "sponsors.js"></script>
+    
+</body>
+  <footer>
+  <div class = "footer">
+    <center><p> &copy; 2019 FLAME | Created by Shivali, Bella, and Erin </p></center>
+  </div>
+    </footer>
+</html>
+
