@@ -5,4 +5,4 @@ Our mission at FLAME is to bridge the generation inequality gap and encourage st
 
 With two other girls, I made this website while competing at Anita Hacks 2019.  I was in creating the Home, Connect, and Sponsors pages using HTML,CSS, and JS.
 
-View FLAME: 
+View FLAME: https://girlonlineshivali.github.io/flame-website/
